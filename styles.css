@@ -18,6 +18,16 @@ body {
     background-color: white;
 }
 
+table {
+    margin: 0 auto;
+}
+
+th, td {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
 h1 {
     font-style: italic;
 }
@@ -41,6 +51,6 @@ ul {
 .conic-background{
   background-image: conic-gradient(#ff9a9e, #fbc2eb, #4facfe, #ff9a9e);
   background-attachment: fixed;
-  margin: 0;
+  margin: 10;
   padding: 0;
 }
